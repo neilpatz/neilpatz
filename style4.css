@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 100%;
+
+}
+
+.blog-section{
+	width: 85%;
+	margin: 20px auto;
+
+}
+.blog-section.title{
+	width: 60%;
+	text-align: center;
+	margin:auto;
+
+}
+.blog-section.title h2{
+	font-size: 40px;
+	color: #357ca6;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.blog-section.title p{
+	font-size: 18px;
+	color: #7e7e7e;
+	margin-top: 20px;
+}
+
+.cards{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	margin: 25px auto;
+}
